@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arogya Jal - Healthy Water | स्वस्थ जल</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">💧</span>
+                <span class="logo-text">Arogya Jal</span>
+                <span class="logo-hindi">अरोग्य जल</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#benefits" class="nav-link">Benefits</a>
+                <a href="#testing" class="nav-link">Testing</a>
+                <a href="#programs" class="nav-link">Programs</a>
+                <a href="#calculator" class="nav-link">Calculator</a>
+                <a href="#about" class="nav-link">About</a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-waves"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Arogya Jal
+                    <span class="hero-subtitle">अरोग्य जल - Healthy Water</span>
+                </h1>
+                <p class="hero-description">
+                    Empowering communities with knowledge about water health and quality. 
+                    Join our mission to ensure safe, clean drinking water for everyone.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#benefits" class="btn btn--primary">Explore Benefits</a>
+                    <a href="#calculator" class="btn btn--outline">Calculate Intake</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">60%</span>
+                        <span class="stat-text">Body Water</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2.2B</span>
+                        <span class="stat-text">Need Safe Water</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2-3L</span>
+                        <span class="stat-text">Daily Loss</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2 class="section-title">Water Health Benefits</h2>
+            <p class="section-subtitle">पानी के स्वास्थ्य लाभ</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card" data-benefit="0">
+                    <div class="benefit-front">
+                        <div class="benefit-icon">⚡</div>
+                        <h3>Enhanced Energy Levels</h3>
+                        <p>Proper hydration helps maintain energy and reduces fatigue throughout the day</p>
+                    </div>
+                    <div class="benefit-back">
+                        <h3>Enhanced Energy Levels</h3>
+                        <p>Even mild dehydration can significantly impact energy levels and cognitive function. Water helps increase circulation and ensures oxygen and nutrients reach your cells.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-card" data-benefit="1">
+                    <div class="benefit-front">
+                        <div class="benefit-icon">🧠</div>
+                        <h3>Improved Cognitive Function</h3>
+                        <p>Brain function depends on adequate hydration for concentration and memory</p>
+                    </div>
+                    <div class="benefit-back">
+                        <h3>Improved Cognitive Function</h3>
+                        <p>The brain is 75% water. Dehydration affects concentration, memory, and mood, leading to mental fog and poor decision-making.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-card" data-benefit="2">
+                    <div class="benefit-front">
+                        <div class="benefit-icon">🫁</div>
+                        <h3>Better Digestion</h3>
+                        <p>Water helps break down food and prevents digestive issues</p>
+                    </div>
+                    <div class="benefit-back">
+                        <h3>Better Digestion</h3>
+                        <p>Water helps soften stools, promotes regular bowel movements, and reduces risk of constipation and bloating.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-card" data-benefit="3">
+                    <div class="benefit-front">
+                        <div class="benefit-icon">❤️</div>
+                        <h3>Cardiovascular Health</h3>
+                        <p>Maintains proper blood volume and circulation</p>
+                    </div>
+                    <div class="benefit-back">
+                        <h3>Cardiovascular Health</h3>
+                        <p>Hydration helps maintain proper blood volume and circulation, reducing strain on the heart and lowering risk of cardiovascular issues.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-card" data-benefit="4">
+                    <div class="benefit-front">
+                        <div class="benefit-icon">✨</div>
+                        <h3>Healthy Skin</h3>
+                        <p>Maintains skin moisture and elasticity</p>
+                    </div>
+                    <div class="benefit-back">
+                        <h3>Healthy Skin</h3>
+                        <p>Proper hydration helps maintain skin moisture balance, improving elasticity and reducing appearance of fine lines and wrinkles.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-card" data-benefit="5">
+                    <div class="benefit-front">
+                        <div class="benefit-icon">🔄</div>
+                        <h3>Detoxification</h3>
+                        <p>Helps remove toxins through kidneys and liver</p>
+                    </div>
+                    <div class="benefit-back">
+                        <h3>Detoxification</h3>
+                        <p>Water supports natural detoxification processes, helping kidneys and liver filter out waste and toxins from the body.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recommendations">
+                <h3>Daily Water Recommendations</h3>
+                <div class="recommendations-grid">
+                    <div class="recommendation">
+                        <strong>Men:</strong> 3.7 liters daily
+                    </div>
+                    <div class="recommendation">
+                        <strong>Women:</strong> 2.7 liters daily
+                    </div>
+                    <div class="recommendation">
+                        <strong>Pregnant Women:</strong> +300ml extra
+                    </div>
+                    <div class="recommendation">
+                        <strong>Children:</strong> Consult pediatrician
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testing Section -->
+    <section id="testing" class="testing">
+        <div class="container">
+            <h2 class="section-title">Water Quality Testing Guide</h2>
+            <p class="section-subtitle">जल गुणवत्ता परीक्षण गाइड</p>
+            
+            <div class="testing-methods">
+                <div class="method-card">
+                    <h3>Visual Inspection</h3>
+                    <div class="method-info">
+                        <span class="method-cost">Free</span>
+                        <span class="method-accuracy">Basic</span>
+                    </div>
+                    <p>Check for cloudiness, color changes, or visible particles</p>
+                    <div class="method-procedure">
+                        <strong>Procedure:</strong> Pour water in clear glass and observe under good lighting
+                    </div>
+                </div>
+
+                <div class="method-card">
+                    <h3>Taste and Smell Test</h3>
+                    <div class="method-info">
+                        <span class="method-cost">Free</span>
+                        <span class="method-accuracy">Basic</span>
+                    </div>
+                    <p>Detect unusual metallic, chlorine, or other odors/tastes</p>
+                    <div class="method-procedure">
+                        <strong>Procedure:</strong> Compare with distilled water as neutral reference
+                    </div>
+                </div>
+
+                <div class="method-card">
+                    <h3>Testing Strips</h3>
+                    <div class="method-info">
+                        <span class="method-cost">₹200-500</span>
+                        <span class="method-accuracy">Moderate</span>
+                    </div>
+                    <p>Quick test for pH, hardness, chlorine, lead, bacteria</p>
+                    <div class="method-procedure">
+                        <strong>Procedure:</strong> Dip strip in water, compare colors to chart
+                    </div>
+                </div>
+
+                <div class="method-card">
+                    <h3>Digital TDS Meter</h3>
+                    <div class="method-info">
+                        <span class="method-cost">₹500-1500</span>
+                        <span class="method-accuracy">Good for TDS</span>
+                    </div>
+                    <p>Measures Total Dissolved Solids in water</p>
+                    <div class="method-procedure">
+                        <strong>Procedure:</strong> Insert probe in water, read digital display
+                    </div>
+                </div>
+
+                <div class="method-card">
+                    <h3>Professional Lab Testing</h3>
+                    <div class="method-info">
+                        <span class="method-cost">₹2000-5000</span>
+                        <span class="method-accuracy">Highest</span>
+                    </div>
+                    <p>Comprehensive analysis of all contaminants</p>
+                    <div class="method-procedure">
+                        <strong>Procedure:</strong> Collect sample, send to certified laboratory
+                    </div>
+                </div>
+            </div>
+
+            <div class="parameters">
+                <h3>Key Parameters to Test</h3>
+                <div class="parameters-table">
+                    <div class="parameter-row">
+                        <span class="parameter-name">pH Level</span>
+                        <span class="parameter-range">6.5-8.5</span>
+                        <span class="parameter-importance">Affects taste and corrosion</span>
+                    </div>
+                    <div class="parameter-row">
+                        <span class="parameter-name">TDS</span>
+                        <span class="parameter-range">150-300 ppm</span>
+                        <span class="parameter-importance">Mineral content indicator</span>
+                    </div>
+                    <div class="parameter-row">
+                        <span class="parameter-name">Chlorine</span>
+                        <span class="parameter-range">0.2-1.0 ppm</span>
+                        <span class="parameter-importance">Disinfection byproduct</span>
+                    </div>
+                    <div class="parameter-row">
+                        <span class="parameter-name">Hardness</span>
+                        <span class="parameter-range">75-150 ppm</span>
+                        <span class="parameter-importance">Calcium and magnesium content</span>
+                    </div>
+                    <div class="parameter-row">
+                        <span class="parameter-name">Fluoride</span>
+                        <span class="parameter-range">0.7-1.2 ppm</span>
+                        <span class="parameter-importance">Dental health</span>
+                    </div>
+                    <div class="parameter-row">
+                        <span class="parameter-name">Heavy Metals</span>
+                        <span class="parameter-range">Below detection</span>
+                        <span class="parameter-importance">Health safety</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Government Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <h2 class="section-title">Government Water Initiatives</h2>
+            <p class="section-subtitle">सरकारी जल योजनाएं</p>
+            
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">🚰</div>
+                    <h3>Jal Jeevan Mission</h3>
+                    <p>Provides tap water connections to rural households</p>
+                    <div class="program-stats">
+                        <div class="program-stat">
+                            <strong>Coverage:</strong> 19.14 crore rural households by 2024
+                        </div>
+                        <div class="program-focus">
+                            <strong>Focus:</strong> Safe and adequate drinking water supply
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">🏠</div>
+                    <h3>Swachh Bharat Mission</h3>
+                    <p>Sanitation and hygiene awareness program</p>
+                    <div class="program-stats">
+                        <div class="program-stat">
+                            <strong>Achievement:</strong> 100+ million household toilets constructed
+                        </div>
+                        <div class="program-focus">
+                            <strong>Focus:</strong> Open defecation free India
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">🌊</div>
+                    <h3>National Water Mission</h3>
+                    <p>Water conservation and management</p>
+                    <div class="program-stats">
+                        <div class="program-stat">
+                            <strong>Goal:</strong> 20% increase in water use efficiency
+                        </div>
+                        <div class="program-focus">
+                            <strong>Focus:</strong> Integrated water resource management
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="calculator">
+        <div class="container">
+            <div class="calculator-content">
+                <div class="calculator-left">
+                    <h2 class="section-title">Water Intake Calculator</h2>
+                    <p class="section-subtitle">दैनिक पानी की आवश्यकता कैलकुलेटर</p>
+                    
+                    <form id="waterCalculator" class="calculator-form">
+                        <div class="form-group">
+                            <label class="form-label">Age (years)</label>
+                            <input type="number" class="form-control" id="age" min="1" max="120" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Weight (kg)</label>
+                            <input type="number" class="form-control" id="weight" min="10" max="300" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Activity Level</label>
+                            <select class="form-control" id="activity" required>
+                                <option value="">Select activity level</option>
+                                <option value="low">Low (Desk job)</option>
+                                <option value="moderate">Moderate (Some exercise)</option>
+                                <option value="high">High (Daily exercise)</option>
+                                <option value="very-high">Very High (Athlete)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">Climate</label>
+                            <select class="form-control" id="climate" required>
+                                <option value="">Select climate</option>
+                                <option value="cool">Cool</option>
+                                <option value="moderate">Moderate</option>
+                                <option value="hot">Hot</option>
+                                <option value="very-hot">Very Hot</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full-width">Calculate Intake</button>
+                    </form>
+                    
+                    <div id="calculatorResult" class="calculator-result hidden">
+                        <h3>Your Daily Water Requirement</h3>
+                        <div class="result-display">
+                            <span id="resultLiters" class="result-number">0</span>
+                            <span class="result-unit">Liters per day</span>
+                        </div>
+                        <div class="result-tips">
+                            <p>💡 <strong>Tip:</strong> Spread your intake throughout the day for better hydration</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="calculator-right">
+                    <h3>Health Tips</h3>
+                    <div class="tips-list">
+                        <div class="tip">
+                            <span class="tip-icon">🌅</span>
+                            <p>Start your day with a glass of water to kickstart hydration</p>
+                        </div>
+                        <div class="tip">
+                            <span class="tip-icon">🍎</span>
+                            <p>Eat water-rich foods like fruits and vegetables</p>
+                        </div>
+                        <div class="tip">
+                            <span class="tip-icon">🚰</span>
+                            <p>Carry a reusable water bottle to track intake</p>
+                        </div>
+                        <div class="tip">
+                            <span class="tip-icon">🔍</span>
+                            <p>Monitor urine color - light yellow indicates good hydration</p>
+                        </div>
+                        <div class="tip">
+                            <span class="tip-icon">🏃</span>
+                            <p>Increase intake during exercise, hot weather, or illness</p>
+                        </div>
+                        <div class="tip">
+                            <span class="tip-icon">🔧</span>
+                            <p>Filter or purify water if quality is questionable</p>
+                        </div>
+                        <div class="tip">
+                            <span class="tip-icon">🧽</span>
+                            <p>Clean water storage containers regularly</p>
+                        </div>
+                        <div class="tip">
+                            <span class="tip-icon">📅</span>
+                            <p>Replace water filters according to manufacturer guidelines</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Arogya Jal</h2>
+            <p class="section-subtitle">अरोग्य जल के बारे में</p>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Arogya Jal is dedicated to promoting water health awareness and education across communities. 
+                        Our mission is to empower individuals with knowledge about water quality, proper hydration, 
+                        and the importance of clean water for overall health and wellbeing.
+                    </p>
+                    <p>
+                        Through evidence-based information, practical tools, and community engagement, we strive to 
+                        create a world where everyone has access to safe drinking water and understands its vital 
+                        role in maintaining good health.
+                    </p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>
+                        A future where every individual has access to clean, safe water and possesses the knowledge 
+                        to make informed decisions about their hydration and water quality.
+                    </p>
+                    
+                    <h3>Key Statistics</h3>
+                    <div class="statistics-grid">
+                        <div class="statistic">
+                            <span class="statistic-number">2.2 Billion</span>
+                            <span class="statistic-label">People without safe water globally</span>
+                        </div>
+                        <div class="statistic">
+                            <span class="statistic-number">500,000+</span>
+                            <span class="statistic-label">Annual deaths from contaminated water</span>
+                        </div>
+                        <div class="statistic">
+                            <span class="statistic-number">75%</span>
+                            <span class="statistic-label">Brain water percentage</span>
+                        </div>
+                        <div class="statistic">
+                            <span class="statistic-number">60%</span>
+                            <span class="statistic-label">Adult body water percentage</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">💧</span>
+                    <span class="logo-text">Arogya Jal</span>
+                </div>
+                <p class="footer-text">
+                    Promoting water health awareness for better communities. 
+                    स्वस्थ समुदायों के लिए जल स्वास्थ्य जागरूकता को बढ़ावा देना।
+                </p>
+                <p class="footer-copyright">
+                    © 2025 Arogya Jal. Educational initiative for water health awareness.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

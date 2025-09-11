@@ -1,0 +1,157 @@
+{
+  "benefits": {
+    "physical_benefits": [
+      {
+        "title": "Enhanced Energy Levels",
+        "description": "Proper hydration helps maintain energy and reduces fatigue throughout the day",
+        "detail": "Even mild dehydration can significantly impact energy levels and cognitive function. Water helps increase circulation and ensures oxygen and nutrients reach your cells.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Improved Cognitive Function",
+        "description": "Brain function depends on adequate hydration for concentration and memory",
+        "detail": "The brain is 75% water. Dehydration affects concentration, memory, and mood, leading to mental fog and poor decision-making.",
+        "icon": "🧠"
+      },
+      {
+        "title": "Better Digestion",
+        "description": "Water helps break down food and prevents digestive issues",
+        "detail": "Water helps soften stools, promotes regular bowel movements, and reduces risk of constipation and bloating.",
+        "icon": "🫁"
+      },
+      {
+        "title": "Cardiovascular Health",
+        "description": "Maintains proper blood volume and circulation",
+        "detail": "Hydration helps maintain proper blood volume and circulation, reducing strain on the heart and lowering risk of cardiovascular issues.",
+        "icon": "❤️"
+      },
+      {
+        "title": "Healthy Skin",
+        "description": "Maintains skin moisture and elasticity",
+        "detail": "Proper hydration helps maintain skin moisture balance, improving elasticity and reducing appearance of fine lines and wrinkles.",
+        "icon": "✨"
+      },
+      {
+        "title": "Detoxification",
+        "description": "Helps remove toxins through kidneys and liver",
+        "detail": "Water supports natural detoxification processes, helping kidneys and liver filter out waste and toxins from the body.",
+        "icon": "🔄"
+      }
+    ],
+    "daily_recommendations": {
+      "men": "3.7 liters (125 ounces) total water intake daily",
+      "women": "2.7 liters (91 ounces) total water intake daily",
+      "children": "Varies by age - consult pediatrician",
+      "pregnant_women": "Additional 300ml above normal intake",
+      "elderly": "May need more due to decreased thirst sensation"
+    }
+  },
+  "testing": {
+    "home_methods": [
+      {
+        "method": "Visual Inspection",
+        "description": "Check for cloudiness, color changes, or visible particles",
+        "cost": "Free",
+        "accuracy": "Basic",
+        "procedure": "Pour water in clear glass and observe under good lighting"
+      },
+      {
+        "method": "Taste and Smell Test",
+        "description": "Detect unusual metallic, chlorine, or other odors/tastes",
+        "cost": "Free",
+        "accuracy": "Basic",
+        "procedure": "Compare with distilled water as neutral reference"
+      },
+      {
+        "method": "Testing Strips",
+        "description": "Quick test for pH, hardness, chlorine, lead, bacteria",
+        "cost": "₹200-500",
+        "accuracy": "Moderate",
+        "procedure": "Dip strip in water, compare colors to chart"
+      },
+      {
+        "method": "Digital TDS Meter",
+        "description": "Measures Total Dissolved Solids in water",
+        "cost": "₹500-1500",
+        "accuracy": "Good for TDS",
+        "procedure": "Insert probe in water, read digital display"
+      },
+      {
+        "method": "Professional Lab Testing",
+        "description": "Comprehensive analysis of all contaminants",
+        "cost": "₹2000-5000",
+        "accuracy": "Highest",
+        "procedure": "Collect sample, send to certified laboratory"
+      }
+    ],
+    "parameters_to_test": [
+      {
+        "parameter": "pH Level",
+        "ideal_range": "6.5-8.5",
+        "importance": "Affects taste and corrosion"
+      },
+      {
+        "parameter": "TDS",
+        "ideal_range": "150-300 ppm",
+        "importance": "Mineral content indicator"
+      },
+      {
+        "parameter": "Chlorine",
+        "ideal_range": "0.2-1.0 ppm",
+        "importance": "Disinfection byproduct"
+      },
+      {
+        "parameter": "Hardness",
+        "ideal_range": "75-150 ppm",
+        "importance": "Calcium and magnesium content"
+      },
+      {
+        "parameter": "Fluoride",
+        "ideal_range": "0.7-1.2 ppm",
+        "importance": "Dental health"
+      },
+      {
+        "parameter": "Heavy Metals",
+        "ideal_range": "Below detection",
+        "importance": "Health safety"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "name": "Jal Jeevan Mission",
+      "description": "Provides tap water connections to rural households",
+      "coverage": "19.14 crore rural households by 2024",
+      "focus": "Safe and adequate drinking water supply"
+    },
+    {
+      "name": "Swachh Bharat Mission",
+      "description": "Sanitation and hygiene awareness program",
+      "achievement": "100+ million household toilets constructed",
+      "focus": "Open defecation free India"
+    },
+    {
+      "name": "National Water Mission",
+      "description": "Water conservation and management",
+      "goal": "20% increase in water use efficiency",
+      "focus": "Integrated water resource management"
+    }
+  ],
+  "tips": [
+    "Start your day with a glass of water to kickstart hydration",
+    "Carry a reusable water bottle to track intake",
+    "Eat water-rich foods like fruits and vegetables",
+    "Monitor urine color - light yellow indicates good hydration",
+    "Increase intake during exercise, hot weather, or illness",
+    "Filter or purify water if quality is questionable",
+    "Clean water storage containers regularly",
+    "Replace water filters according to manufacturer guidelines"
+  ],
+  "statistics": {
+    "global_without_safe_water": "2.2 billion people",
+    "deaths_from_contaminated_water": "500,000+ annually",
+    "body_water_percentage": "60% in adults",
+    "brain_water_percentage": "75%",
+    "daily_water_loss": "2-3 liters through breathing, sweating, urination"
+  }
+}
